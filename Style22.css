@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: lightblue;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(16, 16, 178);
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h1+p {
+    background-color: #161822;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color: #4F8CC9;
+}
+
+ul li:nth-child(3) {
+    color: lightslategrey;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+
+/* ::before Pseudo-element */
+
+ul li::before {
+    content: "🚀 ";
+}
+
+
+/* ::after Pseudo-element */
+
+a::after {
+    content: " 🌌";
+}
+
+
+/* ::first-letter Pseudo-element */
+
+p::first-letter {
+    font-size: 200%;
+    color: #FF7B72;
+}
